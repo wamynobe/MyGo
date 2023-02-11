@@ -15,7 +15,6 @@ func ElectronicScreen(s string) string {
 	for i := 0; i < len(input); i++ {
 		number += string(input[i])
 		if (i+1)%8 == 0 {
-
 			for j := 0; j < len(arr); j++ {
 				if number == arr[j] {
 					result += String(j)
